@@ -5,6 +5,7 @@ function runTheseTests()
 
 project = matlab.project.currentProject;
 runtests(project.RootFolder);
+disp('change')
 
 end
 
